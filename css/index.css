@@ -1,0 +1,16 @@
+input{
+    border-radius: 5px;
+    border-color: dodgerblue;
+    width: 352px;
+    height: 80px;
+    margin-left: 565px;
+    margin-top: 81px;
+    font-size: 42px;
+    font-family: Calibri !important;
+}
+div.num{
+    text-align: center;
+    margin-right: 884px;
+    font-size: 32px;
+    font-family: Calibri !important;
+}
