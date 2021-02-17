@@ -2,15 +2,14 @@
     "use-strict";
     jQuery(document).ready(function() {
         jQuery("#alpha-form input[name=alphabet]").keyup(function(){
-            checkValue();
+            printCharsPosition( jQuery(this).val() );
         });
     }); 
     
     let alphabets = [ 'a', 'b', 'c', 'd', 'e','f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o','p', 'q', 'r', 's', 't','u', 'v', 'w', 'x', 'y','z' ];
 
-    function checkValue(){
+    function printCharsPosition(input){
         let output_index = '';
-        let input = jQuery("#alpha-form input[name=alphabet]").val();//gets the input
      
             for(let i = 0; i < input.length; i++)//input.length is total entered character("y6ge" value is 4)
             {                  
